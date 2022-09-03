@@ -18,3 +18,4 @@ allow system_server proc_touchpanel:file rw_file_perms;
 allow system_server proc_wakelocks:file { getattr open read };
 
 allow system_server isolated_compute_app:unix_stream_socket { getopt };
+allow system_server app_zygote:process getpgid;
