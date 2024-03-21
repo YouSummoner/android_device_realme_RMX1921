@@ -149,7 +149,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI \
-    GoogleDialer
+    GoogleDialer \
+    NexusLauncherRelease
 
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
