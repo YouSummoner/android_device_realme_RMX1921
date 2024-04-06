@@ -512,7 +512,7 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Trust HAL
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
 # USB
