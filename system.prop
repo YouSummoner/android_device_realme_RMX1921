@@ -114,6 +114,12 @@ persist.log.tag.wificond=S
 persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.use_minfree_levels=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.swap_util_max=90
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.media.recorder-max-base-layer-fps=60
