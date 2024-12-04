@@ -12,6 +12,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_HAS_UDFPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_EXCLUDES_AUDIOFX := true
 $(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device
