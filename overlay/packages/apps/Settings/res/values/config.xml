@@ -17,6 +17,9 @@
 
     <!-- Show Force LTE_CA toggle -->
     <bool name="config_showForceLteCaToggle" translatable="false">true</bool>
-
+    
+    <!-- Build maintainer -->
+    <string name="build_maintainer">Maintainer</string>
+    <string name="build_maintainer_summary" translatable="false">improbir</string>
 </resources>
 
