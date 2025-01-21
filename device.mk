@@ -152,8 +152,8 @@ PRODUCT_PACKAGES += \
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SettingsGoogle \
-    SystemUIGoogle \
+    Settings \
+    SystemUI \
     GoogleDialer \
     NexusLauncherRelease
 
