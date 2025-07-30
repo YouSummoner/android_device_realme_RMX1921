@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_RMX1921.mk
+    $(LOCAL_DIR)/infinity_RMX1921.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelage_RMX1921-userdebug \
-    pixelage_RMX1921-eng
+    infinity_RMX1921-userdebug \
+    infinity_RMX1921-eng
